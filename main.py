@@ -26,8 +26,8 @@ from pymunk.vec2d import Vec2d
 import pygame
 from pygame.locals import *
 
-from includes import Button, Label, Entry, Listbox
-from projectile.includes import (
+from src import Button, Label, Entry, Listbox
+from src import (
     Projectile, Boundary, StaticObstacle, Camera, ObjectSelector, SIZE, GRAY, RED, FPS,
     G_HORIZONTAL, G_VERTICAL, after, blur_screen, get_offset, pg_coord, pm_coord
 )
